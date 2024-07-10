@@ -6,10 +6,10 @@ import Items from './CartScreenComponents/CartItems';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { DataContext } from '../components/DataContext';
 
+ 
 
 
-
-
+ 
   
 export default function CartScreen({ navigation, route }) {
   const [storedItems, setStoredItems] = useState([]);
