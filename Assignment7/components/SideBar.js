@@ -2,7 +2,7 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 
 const menuOptions = ["Home", "Cart", "Store", "Clothing", "Jewelery", "Electronic"];
     
-    
+     
     
     
     
