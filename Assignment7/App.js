@@ -8,7 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { DataProvider } from './components/DataContext';
 
 const Stack = createStackNavigator();
-
+ 
 export default function App() {
   return (
     <NavigationContainer>
