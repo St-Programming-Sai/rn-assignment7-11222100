@@ -15,12 +15,12 @@ export default function Header({navigation}) {
         }).start();
     }, [toggleSideBar]);
 
-    useFocusEffect(
+    useFocusEffect( 
         React.useCallback(() => {
             setToggleSideBar(false);
         }, [])
     );
-
+  
     return (
         <View style={{position: "relative", marginTop:-20}}>
             <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingVertical: 5, marginBottom: 20}}>
