@@ -3,7 +3,7 @@ import { View, Text, Image, FlatList, TouchableOpacity, Alert } from "react-nati
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
   
-
+ 
 
 export default function Products({ data, refresh, navigation }) {
     const [refreshing, setRefreshing] = useState(false);
@@ -17,7 +17,7 @@ export default function Products({ data, refresh, navigation }) {
         );
       }
     
-
+ 
 
     const onRefresh = () => {
       setRefreshing(true);
