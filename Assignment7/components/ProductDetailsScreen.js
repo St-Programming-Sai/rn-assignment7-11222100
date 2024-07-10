@@ -4,7 +4,7 @@ import { View, ScrollView, Text, Image, TouchableOpacity, Alert } from 'react-na
 import Header from "./HomeScreenComponents/HeaderSection";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-
+ 
 const laundryGuide = [
     {"key":0, "image":require("../assets/Do Not Bleach.png"), "text":"Do not use bleach"},
     {"key":1, "image":require("../assets/Do Not Tumble Dry.png"), "text":"Do not tumble dry"},
