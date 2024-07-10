@@ -19,7 +19,7 @@ export default function Header({navigation}) {
             <View style={{borderBottomWidth:0.25, width:"50%", textAlign:"center"}}></View>
             <View style={{width:15, height:15, borderWidth:0.5, marginTop:-8, backgroundColor:"white", transform:[{rotate:"45deg"}]}}></View>
         </View>
-    </View>
+    </View> 
     
   );
 }
