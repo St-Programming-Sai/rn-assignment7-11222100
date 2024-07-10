@@ -22,12 +22,6 @@ export const DataProvider = ({ children }) => {
 
 
 
-  // data.map(item => ({
-  //   ...item,
-  //   id: item.id - 1,
-  // }));
-
-
 
   return (
     <DataContext.Provider value={{ data }}>
