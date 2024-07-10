@@ -3,8 +3,8 @@ import { View, Image, Text, TouchableOpacity } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
 
-
-
+ 
+ 
 
 export default function Items({ data, storedItems, setStoredItems, setEstTotal, navigation }) {
 
